@@ -57,6 +57,49 @@ $ composer require xy_jx/thinkphp-filesystem-cloud
 
 第三步：
 开始使用。
+```
+<?php
+
+namespace app\controller;
+
+use app\BaseController;
+use app\Request;
+use think\facade\Filesystem;
+
+/**
+ * 公共类
+ * Class PublicController
+ * @package app\api\controller
+ */
+class PublicController extends BaseController
+{
+    /**
+     * 图片上传
+     * @param Request $request
+     * @return \think\response\Json
+     */
+    public function upload_image(Request $request)
+    {
+            $file = $request->file('file');
+            if ($file) {
+                //验证文件
+                $this->validate($request->file(), ['file' => 'fileSize:10485760|fileMime:image/jpeg,image/png|file']);
+                // 上传到阿里云oss
+                $savename = Filesystem::disk('aliyun')->putFile('', $file);
+                $result = [
+                    'type' => $file->getMime(),
+                    'extension' => $file->extension(),
+                    'url' => $savename,
+                    'full_url' => $type['url'] . $savename,
+                ];
+                return \Api::success($result);
+            } else {
+                return \Api::error(-1, '没有上传文件');
+            }
+    }
+}
+
+```
 请参考thinkphp文档
 文档地址：[https://www.kancloud.cn/manual/thinkphp6_0/1037639 ](https://www.kancloud.cn/manual/thinkphp6_0/1037639 )
 

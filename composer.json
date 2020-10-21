@@ -1,6 +1,6 @@
 {
     "name": "xy_jx/thinkphp-filesystem-cloud",
-    "description": "thinkphp6.0 filesystem,include Aliyun and Qiniu",
+    "description": "thinkphp6.0 filesystem,include Aliyun and Qiniu and qcloud",
     "type": "library",
     "require": {
         "php": ">=7.1.0",
