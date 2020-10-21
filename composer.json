@@ -16,7 +16,7 @@
             "email": "zhangschooi@qq.com"
         }
     ],
-    "minimum-stability": "dev",
+    "version":"0.1",
     "autoload": {
         "psr-4": {
             "xy_jx\\filesystem\\": "src/"
@@ -29,4 +29,5 @@
             ]
         }
     }
+
 }
