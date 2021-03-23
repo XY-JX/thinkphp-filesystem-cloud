@@ -1,6 +1,6 @@
 
 <h1><p align="center">thinkphp-filesystem-cloud</p></h1>
-<p align="center"> thinkphp6.0.* 的文件系统扩展包，支持上传阿里云OSS和七牛和腾讯云COS</p>
+<p align="center"> thinkphp6.0 的文件系统扩展包，支持上传阿里云OSS和七牛和腾讯云COS</p>
 
 ## 包含
 
