@@ -6,8 +6,10 @@
         "php": ">=7.1.0",
         "topthink/framework": "^6.0.0",
         "xxtime/flysystem-aliyun-oss": "^1.4",
-        "liz/flysystem-qiniu": "^1.10",
-        "xy_jx/flysystem-cos": "1.0.*@dev"
+        "liz/flysystem-qiniu": "^1.10"
+    },
+    "require-dev": {
+        "xy_jx/flysystem-cos": "1.0.x-dev"
     },
     "license": "MIT",
     "authors": [
@@ -16,7 +18,6 @@
             "email": "zhangschooi@qq.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "xy_jx\\filesystem\\": "src/"
@@ -30,4 +31,4 @@
         }
     }
 
-}
+},
