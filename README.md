@@ -6,11 +6,8 @@
 
 1. php >= 7.1
 2. thinkphp >=6.0.0
-3. guzzlehttp/guzzle  >= 6.3
+3. guzzlehttp/guzzle  >= 7
 
-   对[guzzlehttp/guzzle 7](https://github.com/XY-JX/thinkphp-filesystem-cloud/tree/dev) 的支持
-
-   对[guzzlehttp/guzzle 7](https://github.com/XY-JX/thinkphp-filesystem-cloud/tree/dev) 的支持
 
 ## 支持
 
