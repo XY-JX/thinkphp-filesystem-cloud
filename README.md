@@ -8,6 +8,8 @@
 2. thinkphp >=6.0.0
 3. guzzlehttp/guzzle  >= 7
 
+[guzzlehttp/guzzle 7](https://github.com/XY-JX/thinkphp-filesystem-cloud/tree/dev)
+
 ## 支持
 
 1. 阿里云
@@ -20,7 +22,7 @@
 ## 安装
 第一步：
 ```shell
-$ composer require xy_jx/thinkphp-filesystem-cloud 2.0.x-dev
+$ composer require xy_jx/thinkphp-filesystem-cloud 
 ```
 第二步：
 在config/filesystem.php中添加配置
