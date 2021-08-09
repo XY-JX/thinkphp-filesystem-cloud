@@ -11,6 +11,7 @@
     "require-dev": {
         "xy_jx/flysystem-cos": "1.0.x-dev"
     },
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
