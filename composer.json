@@ -7,7 +7,7 @@
         "topthink/framework": "^6.0.0",
         "xxtime/flysystem-aliyun-oss": "^1.4",
         "liz/flysystem-qiniu": "^1.10",
-        "xy_jx/flysystem-cos": "1.0.x-dev"
+        "xy_jx/flysystem-cos": "^1.0.x-dev"
     },
     "license": "MIT",
     "authors": [
