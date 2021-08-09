@@ -9,7 +9,6 @@
         "liz/flysystem-qiniu": "^1.10",
         "xy_jx/flysystem-cos": "^1.0.0"
     },
-    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
@@ -17,6 +16,7 @@
             "email": "zhangschooi@qq.com"
         }
     ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "xy_jx\\filesystem\\": "src/"
