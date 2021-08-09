@@ -6,6 +6,7 @@
 
 1. php >= 7.1
 2. thinkphp >=6.0.0
+3. guzzlehttp/guzzle  >= 7
 
 ## 支持
 
@@ -19,7 +20,7 @@
 ## 安装
 第一步：
 ```shell
-$ composer require xy_jx/thinkphp-filesystem-cloud
+$ composer require xy_jx/thinkphp-filesystem-cloud dev-master
 ```
 第二步：
 在config/filesystem.php中添加配置
@@ -50,7 +51,7 @@ $ composer require xy_jx/thinkphp-filesystem-cloud
     'timeout'         => 60,
     'connect_timeout' => 60,
     'cdn'             => '您的 CDN 域名',
-    'scheme'          => 'https',
+    'scheme'          => 'http',
     'read_from_cdn'   => false,
 ]
 ```
