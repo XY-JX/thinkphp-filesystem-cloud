@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace xy_jx\filesystem\driver;
 
 use League\Flysystem\AdapterInterface;
-use Overtrue\Flysystem\Cos\CosAdapter;
+use xy_jx\Flysystem\CosAdapter;
 use xy_jx\filesystem\traits\Storage;
 use think\filesystem\Driver;
 
