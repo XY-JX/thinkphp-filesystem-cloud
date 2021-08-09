@@ -20,7 +20,7 @@
 ## 安装
 第一步：
 ```shell
-$ composer require xy_jx/thinkphp-filesystem-cloud dev-dev
+$ composer require xy_jx/thinkphp-filesystem-cloud 2.0.x-dev
 ```
 第二步：
 在config/filesystem.php中添加配置
