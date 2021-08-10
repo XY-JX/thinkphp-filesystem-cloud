@@ -8,16 +8,21 @@
 2. thinkphp >=6.0.0
 3. guzzlehttp/guzzle  >= 7
 
-
 ## 支持
 
 1. 阿里云
 2. 七牛云
 3. 腾讯云
-
-## 计划
-1. 支持华为云
-
+## 版本说明
+v1. guzzlehttp/guzzle 支持 6.*
+```shell
+$ composer require xy_jx/thinkphp-filesystem-cloud 1.1.*
+```
+v2. guzzlehttp/guzzle 支持 7.* 
+```shell
+$ composer require xy_jx/thinkphp-filesystem-cloud 
+```
+所使用扩展有所不同
 ## 安装
 第一步：
 ```shell
@@ -96,7 +101,7 @@ class PublicController extends BaseController
                 ];
                 return \Api::success($result);
             } else {
-                return \Api::error(-1, '没有上传文件');
+                return \Api::error('没有上传文件');
             }
     }
 }
